@@ -3,9 +3,9 @@ is_component_build = false
 is_debug = false
 enable_nacl = false
 enable_widevine = true
-proprietary_codecs = false
+proprietary_codecs = true
 is_component_ffmpeg = true
-ffmpeg_branding = "Chromium"
+ffmpeg_branding = "Chrome"
 
 # Use the system provided standard library on platforms other than Linux.
 if (target_os != "linux") {

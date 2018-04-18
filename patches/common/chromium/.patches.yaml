@@ -341,3 +341,9 @@ patches:
     in electron (and other applications). This patch provides a way to disable
     the redraw locking mechanism, which fixes these issues. The electron issue
     can be found at https://github.com/electron/electron/issues/1821
+-
+  owners: ymmuse
+  file: github-ymmuse-feature-avi.patch
+  description:  |
+    from https://github.com/ymmuse/electron-libcc-ffmpeg@cca69b45bbf1573581ade0108306ab4ac0c7e5a6
+    support <video></video> plays avi file.
