@@ -7,3 +7,9 @@ patches:
     Chromium's Mac toolchain sets the "install_name" linker parameter only
     when "is_component_build" is true, but we want to set even if it's false,
     because we are making a dylib which will be distributed inside a bundle.
+-
+  owners: ymmuse
+  file: github-ymmuse-feature-avi.patch
+  description:  |
+    from https://github.com/ymmuse/electron-libcc-ffmpeg@cca69b45bbf1573581ade0108306ab4ac0c7e5a6
+    support <video></video> plays avi file.
